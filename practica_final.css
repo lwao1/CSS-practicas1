@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+}
+
+h3 ,table{
+		width: 80%;
+	}
+	h3{
+		text-align: center;
+	}
+	body{
+		font-family: arial;
+		margin: 0;
+		color:#333;
+	}
+
+	thead {
+		background: blue;
+		color:white;
+	}
+	
+	table tbody tr:nth-child(even) {
+			background-color: #E6E6F5;
+		}
+
+	table,table th,table td{
+		border: 1px solid #000;
+		border-collapse: collapse;
+		padding: 0.5em;
+	}
+	tfoot td{
+		text-align: right;
+		
+	}
+	
+	.detalle{
+		font-size: 14px;
+		font-family: Arial;
+		padding:0.5em;
+		border:1px solid black;
+
+
+	}
+
+	footer {
+		background-color: blue;
+		text-align: center;
+	}
+	
+	.cabeza {
+		background-color:blue;
+		padding: 8px;
+		margin-bottom: 10px;
+		text-align: center;
+		color:white;
+	}
+		
+		.cabeza h3{
+			font-size: 40px;
+
+		}
+
+	.listado{
+
+		padding:20px;
+		margin-right: 10px;
+		margin-left:10px;
+	}
