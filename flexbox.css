@@ -1,0 +1,66 @@
+/* https://codepen.io/justd/full/yydezN/ */ 
+
+
+.container{
+  height:200px;
+  width:500px;
+  background-color:#000;
+  
+}
+
+.box{
+  font-size:2em;
+  width:50px;
+  height:50px;
+  line-height:2;
+  background-color: #F00;
+  color:#FFF;
+  margin:5px;
+}
+
+.box:nth-child(3){
+	height: 160px;
+  order: 5;
+
+}
+
+.cont-flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+  align-items: center;
+  align-content: flex-end;
+
+}
+
+.uno{
+	flex-basis: 300px;
+}
+
+.box:nth-child(5){
+	width: 30%;
+	order: 2;
+
+}
+
+.box:nth-child(1){
+
+  order: 4;
+
+}
+
+
+.box:nth-child(2){
+
+  order: 1;
+
+}
+
+.delgado{
+  flex-shrink: 4;
+}
+
+.ancho{
+  flex-grow: 4;
+}
